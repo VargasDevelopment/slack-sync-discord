@@ -6,7 +6,7 @@ Bi-Directional synchronization of Slack and Discord
 ## Clone the project
 Use Git to clone the project to your machine
 
-1. In `flippedbot2.py`, fill in the `translationDict` with a mapping of your server's Slack Username's to their Discord usernames. One example is already filled in
+1. In `flippedbot2.py`, fill in the `translationDict` with a mapping of your server's Slack Usernames to their Discord Usernames. One example is already filled in
 2. Repeat this for `flippedBot_d.py`
 
 ## Slack Bot
