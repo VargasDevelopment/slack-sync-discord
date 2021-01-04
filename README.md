@@ -21,6 +21,7 @@ Use Git to clone the project to your machine
 	- Click `Subscribe to events on behalf of users`
 		- Add `message.channels` to the permission scope.
 6. Using te [Slack API Tester](https://api.slack.com/methods/conversations.list/test) and your Bot Token, get the ID of the General Channel in your Slack Server
+	- Save this ID for the ".env" file
 
 ## Discord Bot
 1. Using the Discord API, [create a new discord application](https://discord.com/developers/applications)
