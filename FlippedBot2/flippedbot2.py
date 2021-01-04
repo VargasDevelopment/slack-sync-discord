@@ -36,15 +36,9 @@ schema = {
 }
 
 translationDict = {
-    "Joseph Vargas" : "Thunder_54",
-    "Brad Slayter" : "SlayterDev",
-    "Zac Adams" : "velveeta zac",
-    "Bobby Kim" : "Punch Guru",
-    "Scott McKeefer" : "Zapturk",
-    "Mark Yanaros" : "marky"
+    "Slack Username" : "Discord_Username"
 }
 
-#consumer = KafkaConsumer("d2s", bootstrap_servers=["localhost:9092"], auto_offset_reset="earliest", enable_auto_commit=True, group_id="messages", value_deserializer=lambda x: loads(x.decode("utf-8")))
 
 producer = KafkaProducer(bootstrap_servers=["localhost:9092"], value_serializer=lambda x: dumps(x).encode("utf-8"))
 

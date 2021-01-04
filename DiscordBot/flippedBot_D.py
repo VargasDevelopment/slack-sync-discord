@@ -13,12 +13,7 @@ from time import sleep
 import aiohttp
 
 translationDict = {
-    "marky" : "Mark Yanaros",
-    "Zapturk" : "Scott McKeefer",
-    "Punch Guru" : "Bobby Kim",
-    "velveeta zac": "Zac Adams",
-    "SlayterDev" : "Brad Slayter",
-    "Thunder_54" : "Joseph Vargas"
+    "Discord_Username" : "Slack Username"
     }
 
 schema = {
